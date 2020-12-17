@@ -10,3 +10,6 @@ This is the significance that this threath poses.
 
 ## [ActionEffectivenss](./ActionEffectiveness.md)
 This the effectiveness we expect from our countermessaures.
+
+## [Category](./category.md)
+This are list of categoies and relevant strategies.
