@@ -14,4 +14,4 @@ This the effectiveness we expect from our countermessaures.
 ## [Category](./category.md)
 This are list of categoies and relevant strategies.
 
-## [Collection] (./CollectProblems.md)
+## [Collection](./CollectProblems.md)
