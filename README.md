@@ -15,3 +15,5 @@ This the effectiveness we expect from our countermessaures.
 This are list of categoies and relevant strategies.
 
 ## [Collection](./CollectProblems.md)
+
+Now we have deviation and problems... the hard part is to collect and quantify.
