@@ -28,9 +28,12 @@ Add value not noise.
 
 __NOT__
 
-'''java
+```java
 LOGGER.warn("error");
-'''
+```
 
 __Add context and event__
+
+```java
 LOGGER.warn("Sending document %s to events Filse-service failed, response code %d, response message %s. Retry in %d milliseconds", documentId, responseCode, responseMessage, timeToRetry);
+```
