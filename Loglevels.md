@@ -21,4 +21,16 @@ _"A problem but we will recover"_  Queries that dont finnish in time, timeouts, 
 ## FATAL
 _Unabel to fullfill the request_, Shutting down, corrupt data, dataloss.
 
-## 
+## How to log
+
+Add value not noise.
+
+
+__NOT__
+
+'''java
+LOGGER.warn("error");
+'''
+
+__Add context and event__
+LOGGER.warn("Sending document %s to events Filse-service failed, response code %d, response message %s. Retry in %d milliseconds", documentId, responseCode, responseMessage, timeToRetry);
