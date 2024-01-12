@@ -1,41 +1,37 @@
 # Log levels
 
 ## TRACE
-Used duting developement, never turned on in probduction.
+Used during development, never turned on in production.
 
 ## DEBUG
-Anything happening in the application.  The state can be used during debugging, reduce det number of entried to a minumum. leave only statements that give true meaning and insight.
+Anything happening in the application. The state can be used during debugging, reduce the number of entries to a minimum. Leave only statements that give true meaning and insight.
 
 ## INFO
-All actions that are initiated by by shedules og users
+All actions that are initiated by schedules or users.
 
 ## NOTICE
 Runtime state, typically statistic logging lives here.
 
 ## WARN
-_"Not a problem yet"_ Typically the slow queries, disk-io, annything performance related.  Added to a timeseries database, bottlenecks will show upp here.
+_"Not a problem yet"_ Typically the slow queries, disk I/O, anything performance-related. Added to a time-series database; bottlenecks will show up here.
 
 ## ERROR
-_"A problem but we will recover"_  Queries that dont finnish in time, timeouts, 404 (http), external service down.
+_"A problem but we will recover"_ Queries that don't finish in time, timeouts, 404 (http), external service down.
 
 ## FATAL
-_Unabel to fullfill the request_, Shutting down, corrupt data, dataloss.
+_Unable to fulfill the request_, shutting down, corrupt data, data loss.
 
 ## How to log
 
 Add value not noise.
 
-
-__NOT__
-
+### DO NOT
 
 ```java
 LOGGER.warn("error");
 ```
-
-__Add context and event__
-
+### DO: Add context and event
 
 ```java
-LOGGER.warn("Sending document %s to events Filse-service failed, response code %d, response message %s. Retry in %d milliseconds", documentId, responseCode, responseMessage, timeToRetry);
+LOGGER.warn("Sending document %s to Events File-service failed, response code %d, response message %s. Retry in %d milliseconds", documentId, responseCode, responseMessage, timeToRetry);
 ```
