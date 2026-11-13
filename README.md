@@ -1,23 +1,23 @@
-# RiskManagement
 Notes on riskmanagement
 
 
 ## [Likelihood](./Likelihood.md)
-This is the likelyhood that this rissk will occure within a year.
+The likelihood that this risk will occur within a year.
 
 ## [Significance](./Significance.md)
-This is the significance that this threath poses.
+The significance of the threat.
 
-## [ActionEffectivenss](./ActionEffectiveness.md)
-This the effectiveness we expect from our countermessaures.
+## [ActionEffectiveness](./ActionEffectiveness.md)
+The effectiveness we expect from our countermeasures.
 
 ## [Category](./category.md)
-This are list of categoies and relevant strategies.
+The categories and the relevant strategies.
 
 ## [Collection](./CollectProblems.md)
 
-Now we have deviation and problems... the hard part is to collect and quantify.
+Deviations and problems: the hard part is to collect and quantify them.
 
 ## [Log levels](./Loglevels.md)
 
-What to log in a loglevel.
+What to log at each log level.
+
